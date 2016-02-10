@@ -29,6 +29,7 @@
 	height: 180px;
 	display: inline-block;
 	margin: 0px;
+	padding: 5px
 	/* border: 1px solid orange; */
 }
 
@@ -202,6 +203,12 @@ p.ntelligent-name
     background: #eeeeee;
 
 }
+
+.ch-tbh {
+	  background-image: url("../img/tbh.jpg");
+	  background-size: 100%;
+}
+
 
 .register-container{
     background: rgba(255,255,255,1);
