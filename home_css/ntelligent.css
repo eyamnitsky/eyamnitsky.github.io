@@ -203,6 +203,12 @@ p.ntelligent-name
 
 }
 
+.ch-tbh {
+	  background-image: url("../img/tbh.jpg");
+	  background-size: 100%;
+}
+
+
 .register-container{
     background: rgba(255,255,255,1);
 }
