@@ -40,7 +40,7 @@ template {
 }
 
 html {
-  font-family: sans-serif;
+  font-family: Permian,sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -305,7 +305,7 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Permian, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
@@ -481,7 +481,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Permian, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -2633,16 +2633,16 @@ input[type="button"].btn-block {
 }
 
 @font-face {
-  font-family: 'Glyphicons Halflings';
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+      font-family: Permian;
+      src: url(../font/PermianSansTypeface.otf);
+      font-weight: bold;
 }
 
 .glyphicon {
   position: relative;
   top: 1px;
   display: inline-block;
-  font-family: 'Glyphicons Halflings';
+  font-family: Permian;
   -webkit-font-smoothing: antialiased;
   font-style: normal;
   font-weight: normal;

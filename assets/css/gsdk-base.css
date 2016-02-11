@@ -83,9 +83,10 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 h1 .subtitle{
     display: block;
-    font-family: 'Grand Hotel',cursive;
-    line-height: 40px;
+    font-family: Permian,cursive;
+    line-height: 30px;
     margin: 15px 0 30px;
+    font-size: .4em;
 
 }
 
