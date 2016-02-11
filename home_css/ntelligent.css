@@ -213,3 +213,7 @@ p.ntelligent-name
 .register-container{
     background: rgba(255,255,255,1);
 }
+
+.ch-grid h4 small{
+	padding: 5px ;
+}
