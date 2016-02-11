@@ -173,10 +173,11 @@ p.ntelligent-motto
 	*/
 	font-size: 250%;
 	color: #117CC1;
-	font: 2em Arial,Sans-Serif;
+	font: 2em Permian,Sans-Serif;
 	border-top: 1px solid #167CC1;
 	text-transform: lowercase;
 	letter-spacing: 1.2px;
+	padding-bottom: 50px;
 
 }
 
@@ -190,7 +191,7 @@ p.ntelligent-name
 	*/
 	font-size: 250%;
 	color: #117CC1;
-	font: 3em Arial,Sans-Serif;
+	font: 3em Permian,Sans-Serif;
 	font-weight: bold;
 	text-transform: lowercase;
 	letter-spacing: 1.2px;
@@ -216,4 +217,13 @@ p.ntelligent-name
 
 .ch-grid h4 small{
 	padding: 5px ;
+	font-size: 0.8em;
+	border-top: 1px solid grey;
+	font-family: Permian, cursive;
+}
+
+@font-face {
+    font-family: Permian;
+    src: url(../font/PermianSansTypeface.otf);
+    font-weight: bold;
 }

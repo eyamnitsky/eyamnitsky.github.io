@@ -13,7 +13,7 @@
 .tim-typo{
     padding-left: 25%;
     margin-bottom: 40px;
-    position: relative;   
+    position: relative;
 }
 .tim-typo .tim-note{
     bottom: 10px;
@@ -49,7 +49,7 @@
     display: block;
 }
 .navigation-example .img-src{
-    background-attachment: scroll; 
+    background-attachment: scroll;
 }
 /*
 .main{
@@ -92,7 +92,7 @@
     padding-top: 20px;
 }
 .subscribe-form .form-control{
-    
+
 }
 
 .space-100{
@@ -114,7 +114,7 @@
 }
 .footer{
     background-color: #DDDDDD;
-    background-image: url('../img/cover_4_blur.jpg');
+    background-image: url('../../img/lattice.jpg');
     background-attachment: fixed;
     position: relative;
 }
@@ -122,7 +122,7 @@
     color: #FF3B30;
 }
 .footer .overlayer{
-    background-color: rgba(27, 27, 27, 0.7);
+    /*background-color: rgba(27, 27, 27, 0.7);*/
     position: relative;
 }
 .footer .credits {
@@ -130,7 +130,7 @@
     margin-top: 85px;
     padding: 20px 0 15px;
     text-align: center;
-    color: #EEE;
+    color: grey;
 }
 .footer .credits a{
     color: #FFFFFF;
@@ -274,7 +274,7 @@
 }
 .parallax-pro > img{
     width: 100%;
-    position: absolute;  
+    position: absolute;
 }
 
 @media (max-width: 768px){
