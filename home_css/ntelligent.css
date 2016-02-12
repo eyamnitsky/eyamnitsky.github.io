@@ -222,6 +222,12 @@ p.ntelligent-name
 	font-family: Permian, cursive;
 }
 
+.nt-carousel{
+	width:70%;
+	margin:0 auto;
+  height: auto;
+}
+
 @font-face {
     font-family: Permian;
     src: url(../font/PermianSansTypeface.otf);
