@@ -24,13 +24,18 @@
 
 }
 
+.ch-grid-inside ul {
+	margin: 0;
+	padding: 0;
+
+}
+
 .ch-grid li {
 	width: 180px;
 	height: 180px;
 	display: inline-block;
 	margin: 0px;
-	padding: 5px
-	/* border: 1px solid orange; */
+	padding: 5px;
 }
 
 .ch-item {
@@ -211,8 +216,12 @@ p.ntelligent-name
 }
 
 
-.register-container{
+.register-container {
     background: rgba(255,255,255,1);
+}
+
+.career-container {
+    background: #eeeeee;
 }
 
 .ch-grid h4 small{
@@ -220,6 +229,65 @@ p.ntelligent-name
 	font-size: 0.8em;
 	border-top: 1px solid grey;
 	font-family: Permian, cursive;
+}
+
+.carousel-spread {
+	text-align: center;
+ /*	height: 350px; */
+}
+
+.carousel-spread h1 {
+	/* padding: 2px ;*/
+	font-size: 600%;
+	font-family: Permian, cursive;
+/*	top: 5px; */
+	position: relative;
+	text-transform: uppercase;
+	font-weight: 1000;
+	color: white;
+}
+
+.carousel-spread ul {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position:relative;
+}
+
+.carousel-spread ul > li {
+	display: inline-block;
+	margin: 0px;
+	padding: 5px;
+	float: left;
+	height: 350px;
+	overflow: hidden;
+
+}
+
+.carousel-spread ul > li > img {
+	height: 200px;
+	float: none;
+
+	margin-top: 75px;
+	margin-left: 45px;
+	margin-right: 45px;
+
+}
+
+.arrow{
+  border:5px solid white;
+  position: relative;
+  background:white;
+  width:0%;
+  animation:grow 3s ease forwards;
+	/*margin-top: 150px;*/
+}
+
+@keyframes grow{
+  to{
+    width:100%;
+  }
 }
 
 @font-face {
