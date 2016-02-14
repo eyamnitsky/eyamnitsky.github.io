@@ -93,6 +93,62 @@
 						</center>
 				</div>
 </div>
+<div id="carousel">
+    <!--
+            IMPORTANT - This carousel can have a special class for a smooth transition "gsdk-transition". Since javascript cannot be overwritten, if you want to use it, you can use the bootstrap.js or bootstrap.min.js from the GSDKit or you can open your bootstrap.js file, search for "emulateTransitionEnd(600)" and change it with "emulateTransitionEnd(1200)"
+
+    -->
+    <div id="carousel-example-generic" class="carousel slide gsdk-transition" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+					<div class="carousel-spread" style="background-color: #167CC1">
+						<ul>
+							<li><img src="img/female_standing.gif"></li>
+							<li><h1>learn<br>your<br>customer</h1></li>
+							<li><img src="img/male_standing.gif"></li>
+						</ul>
+					</div>
+        </div>
+        <div class="item">
+					<div class="carousel-spread" style="background-color: #fba41c">
+						<ul>
+							<li><img src="img/female_standing.gif"></li>
+							<li>
+								<h1>conntect</h1>
+								<div class="arrow"></div>
+								<h1>with peers</h1>
+							</li>
+							<li><img src="img/male_standing.gif"></li>
+						</ul>          </div>
+				</div>
+        <div class="item">
+					<div class="carousel-spread" style="background-color: #49a146">
+						<ul>
+							<li><img src="img/happy_girl.gif"></li>
+							<li><h1>sell<br>without<br>headaches</h1></li>
+							<li><img src="img/happy_boy.gif"></li>
+						</ul>
+					</div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+        <span class="fa fa-angle-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="fa fa-angle-right"></span>
+      </a>
+    </div>
+</div> <!-- end carousel -->
 <div class="main" >
     <div class="container tim-container" style="max-width:800px; padding-top:10px" id="team">
        <h1 class="text-center">The Team<small class="subtitle">You have to learn the rules of the game.<br>And then you have to play better than anyone else. <br>--Albert Einstein</small></h1>
@@ -185,65 +241,10 @@
 	<!-- /div -->
 <!-- end container -->
 </div> <!-- end of Product container -->
-<div id="carousel">
-    <!--
-            IMPORTANT - This carousel can have a special class for a smooth transition "gsdk-transition". Since javascript cannot be overwritten, if you want to use it, you can use the bootstrap.js or bootstrap.min.js from the GSDKit or you can open your bootstrap.js file, search for "emulateTransitionEnd(600)" and change it with "emulateTransitionEnd(1200)"
 
-    -->
-    <div id="carousel-example-generic" class="carousel slide gsdk-transition" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-      </ol>
-
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="item active">
-					<div class="carousel-spread" style="background-color: #167CC1">
-						<ul>
-							<li><img src="img/female_standing.gif"></li>
-							<li><h1>learn<br>your<br>customer</h1></li>
-							<li><img src="img/male_standing.gif"></li>
-						</ul>
-					</div>
-        </div>
-        <div class="item">
-					<div class="carousel-spread" style="background-color: #fba41c">
-						<ul>
-							<li><img src="img/female_standing.gif"></li>
-							<li>
-								<h1>conntect</h1>
-								<div class="arrow"></div>
-								<h1>with peers</h1>
-							</li>
-							<li><img src="img/male_standing.gif"></li>
-						</ul>          </div>
-				</div>
-        <div class="item">
-					<div class="carousel-spread" style="background-color: #49a146">
-						<ul>
-							<li><img src="img/happy_girl.gif"></li>
-							<li><h1>sell<br>without<br>headaches</h1></li>
-							<li><img src="img/happy_boy.gif"></li>
-						</ul>
-					</div>
-        </div>
-      </div>
-
-      <!-- Controls -->
-      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-        <span class="fa fa-angle-left"></span>
-      </a>
-      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-        <span class="fa fa-angle-right"></span>
-      </a>
-    </div>
-</div> <!-- end carousel -->
 <div class="main register-container" id="register">
 	<div class="container " style="max-width:900px; padding-top:10px">
-		<h1 class="text-center">Curious? <a href="mailto:info@ntelligent.ly?subject=Sign me up!">Sign Up</a>! <small class="subtitle" style="align: right">I have no special talent.<br>I am only passionately curious.<br>-Albert Einstein</small></h1>
+		<h1 class="text-center">Curious? <a href="mailto:info@ntelligent.ly?subject=Sign me up!">Sign Up</a>! <small class="subtitle" style="align: right">I have no special talent.<br>I am only passionately curious.<br>--Albert Einstein</small></h1>
 		<p>
 			While working quietly in our <strike><i>garage</i></strike> office, we have been discussing our idea with a number of curious customers and investors. We love the interest! And we are looking for a partner who can provide us with <strike><i>generous donation</i></strike> funds to accelerate time to market.
 		</p>
@@ -256,7 +257,7 @@
 </div><!-- End of Register div -->
 <div class="main career-container" id="careers">
 	<div class="container career-container" style="max-width:900px; padding-top:10px">
-		<h1 class="text-center">Careers<small class="subtitle" style="align: right">Logic will get you from A to Z;<br> imagination will get you everywhere.<br>-Albert Einstein</small></h1>
+		<h1 class="text-center">Careers<small class="subtitle" style="align: right">Logic will get you from A to Z;<br> imagination will get you everywhere.<br>--Albert Einstein</small></h1>
 
 		<ul class="ch-grid" id="careers">
 			<li>
