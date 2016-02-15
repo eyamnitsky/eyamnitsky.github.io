@@ -183,6 +183,7 @@ p.ntelligent-motto
 	text-transform: lowercase;
 	letter-spacing: 1.2px;
 	padding-bottom: 50px;
+	margin: 0;
 
 }
 
@@ -292,6 +293,10 @@ p.ntelligent-name
 
 .credits {
 	color: white;
+}
+
+.top-section {
+	margin-top: 100px;
 }
 
 @keyframes grow{
