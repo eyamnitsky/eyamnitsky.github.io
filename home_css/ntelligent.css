@@ -284,6 +284,16 @@ p.ntelligent-name
 	/*margin-top: 150px;*/
 }
 
+.footer {
+	background-image: url('../img/lattice_dark.jpg');
+	position: relative;
+	background-attachment: scroll;
+}
+
+.credits {
+	color: white;
+}
+
 @keyframes grow{
   to{
     width:100%;
