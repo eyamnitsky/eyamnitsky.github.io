@@ -297,6 +297,12 @@ p.ntelligent-name
 	color: white;
 }
 
+.center-table
+{
+  margin: 0 auto;
+  float: none;
+}
+
 @keyframes grow{
   to{
     width:100%;
