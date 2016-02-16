@@ -298,6 +298,12 @@ p.ntelligent-name
 	color: white;
 }
 
+.center-table
+{
+  margin: 0 auto;
+  float: none;
+}
+
 .top-section {
 	margin-top: 100px;
 }
