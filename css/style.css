@@ -717,6 +717,15 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 /* ===== End team ===== */
 
 
+/* ===== Begin services ===== */
+#services-section {
+	padding: 80px 0;
+}
+.services {
+	background-color: #f8f8f8;
+}
+/* ===== End partners ===== */
+
 /* ===== Begin partners ===== */
 #partners-section {
 	padding: 80px 0;
@@ -729,8 +738,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	max-width: 100%;
 	padding: 0 15px;
 }
-/* ===== End partners ===== */
-
+/* ===== End services ===== */
 
 /* ===== Begin panels ===== */
 .panel, .panel-heading, .panel-footer  {
